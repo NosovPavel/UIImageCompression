@@ -26,9 +26,6 @@ let imageData = image.compressImage(200)
 let imageData = image.compressImageWithASmallStep(200) 
 // do the same things like above, but compression step is small
 
-let imageData = image.compressImageWithASmallStep(200) 
-// do the same things like above, but compression step is small
-
 let imageData = image.compressImageWithQuality(0.5) // just compress image up to 50% quality.
 ```
 I hope my extension can make your work easier.
